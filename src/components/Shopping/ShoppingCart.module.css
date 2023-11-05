@@ -1,0 +1,94 @@
+.table    
+{
+   border: none !important;
+   font-style: italic;
+   font-size: 1.3rem;
+   width: 70% !important;
+}
+.table tbody tr td 
+{
+   border: none !important;
+   vertical-align:middle;
+   text-align: center;
+   background-color: white;
+   font-size: 1.2rem;
+   padding: 1rem;
+}
+
+.table tbody tr td:nth-of-type(3),
+.table tbody tr td:nth-of-type(5)
+{
+   color: #a7a7ab;
+   width: 5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+
+.h1
+{
+   font-weight:600;
+}
+.table thead tr th 
+{
+   color: #363d52 ;
+   text-align: center;
+   
+}
+.table  tr, th
+{
+   border: none !important;
+  
+}
+.img
+{
+   width: 8rem;
+   height: 8rem;
+}
+
+
+.shopping
+{
+   display: flex;
+   column-gap: 1.5rem;
+}
+
+.delete:hover
+{
+   color: red;
+   cursor: pointer;
+}
+.link button:nth-of-type(2)
+{
+   border: 2px solid black;
+   padding: .5rem 1rem;
+}
+.link button:hover
+{
+   opacity: 0.8;
+}
+.link button
+{
+   background-color: inherit;
+   border: 0;
+   display: flex;
+   align-items: center;
+   column-gap: 1.3rem;
+   color: #777b7b;
+}
+.link
+{
+   padding: 2rem 1rem;
+   background-color: #f8f9fa;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1rem;
+   width: 68%;
+}
+.h2
+{
+   text-align: left;
+   margin-top: 2rem;
+   margin-bottom: 3rem;
+   font-weight: 500;
+}

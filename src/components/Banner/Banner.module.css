@@ -1,0 +1,32 @@
+.banner
+{
+   background: url('../../images/banner1.jpg') center/cover no-repeat;
+   height: 30rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.banner p
+{
+   text-transform: uppercase;
+   color: #a4aab0;
+}
+.banner div
+{
+   transform: translateX(-50%);
+}
+.banner button
+{
+   color: white;
+   background-color: #383838;
+   border: 0;
+   font-size: 1.5rem;
+   font-style: italic;
+   font-weight: 200;
+   padding: 0.5rem 0.8rem;
+}
+.banner button:hover
+{
+   background-color: #383838c9;
+}

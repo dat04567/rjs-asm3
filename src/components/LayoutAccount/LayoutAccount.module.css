@@ -1,0 +1,60 @@
+.account
+{
+   background: url('../../images/banner1.jpg') center/cover no-repeat;
+   height: 50rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.form-control
+{
+   background-color: white;
+   width: 35rem;
+   height: 40rem;
+   border-radius: 12px;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.form-control h2
+{
+   font-weight: 300;
+   font-size: 3rem;
+   margin-bottom: 5rem;
+}
+.form-control label,
+.form-control button
+{
+   width: 70%;
+}
+
+.form-control input
+{
+   width: 100%;
+   padding: 1.2rem ;
+   border: 1px solid #ececec;
+}
+
+.form-control button
+{
+   margin-top: 1rem;
+   padding: 1.2rem;
+   margin-bottom: 1rem;
+   border-radius: 0;
+}
+
+.footer a
+{ 
+   text-decoration: none;
+}
+.footer
+{
+   font-size: 1.2rem;
+   font-style: italic;
+   color: #c9caca;
+   margin-top: 4rem;
+  
+}

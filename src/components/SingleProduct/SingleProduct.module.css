@@ -1,0 +1,11 @@
+.single-product
+{
+   display: flex;
+   column-gap: 2rem;
+}
+
+.description
+{
+   margin-top: 3rem;
+}
+

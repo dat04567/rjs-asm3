@@ -1,0 +1,25 @@
+.thumbsgallery
+{
+   display: flex;
+}
+
+.thumbsgallery img
+{
+   width: 25rem;
+   height: 25rem;
+}
+
+.img1
+{
+   width: 30%;
+}
+.thumbsgallery-images 
+{
+   display: flex;
+   flex-direction: column;
+}
+.thumbsgallery-images img
+{
+   width: 100px;
+   height: 100px;
+}

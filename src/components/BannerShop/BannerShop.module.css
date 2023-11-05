@@ -1,0 +1,23 @@
+.banner-shop
+{
+   display: flex;
+   justify-content: space-between;
+   font-style: italic;
+   background-color: #f7f9f6;
+   padding: 5.5rem 0;
+}
+.banner-shop h1
+{
+   margin-left: 3rem;
+}
+.banner-shop button{
+   border: 0;
+   margin-right:3rem;
+   font-weight: bold;
+   font-style: italic;
+   background-color: inherit;
+}
+.btn
+{
+   word-spacing: 1rem;
+}

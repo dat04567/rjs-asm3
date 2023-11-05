@@ -1,0 +1,46 @@
+.form
+{
+   display: flex;
+   flex-direction: column;
+   width: 65%;
+   row-gap: 1.2rem;
+}
+ 
+.form label
+{
+   display: flex;
+   flex-direction: column;
+   row-gap: .3rem;
+}
+.form span
+{
+   font-style: italic;
+   font-size: 1.2rem;
+   /* white-space: 1rem; */
+   letter-spacing: .2rem;
+}
+
+.form button
+{
+   width: 20%;
+   border: none;
+   background-color: black;
+   color: white;
+   padding: .5rem 1rem;
+   font-style: italic;
+   font-weight: 300;
+   font-size: 1.3rem;
+}
+
+.form input::placeholder
+{
+   color: #d0cfd4;
+}
+.form input
+{
+   width: 100%;
+   padding: .5rem 0;
+   padding-left: .5rem;
+   border: 2px solid #d5dade;
+}
+

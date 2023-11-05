@@ -1,0 +1,180 @@
+.categories 
+{
+   display: grid;
+   grid-template-columns: 2fr 4fr;
+   margin-top: 2rem;
+   column-gap: 2rem;
+}
+
+.menu-items ul {
+   list-style: none;
+   font-size: 1.5rem;
+   font-weight: normal;
+
+}
+.menu-items ul li 
+{
+   margin-left: 1.2rem !important;
+}
+
+.menu-items ul li:hover {
+   color: #eee0c8;
+   cursor: pointer;
+}
+
+.nav-categories ul {
+   list-style: none;
+   padding: 0;
+}
+.nav-categories ul li span 
+{
+   padding: 0.2rem 5rem 0.2rem 1rem;
+   display: block;
+   margin: 1rem 0;
+   font-weight: bold;
+   background-color: #f7f9f6;
+}
+.nav-categories ul li:not(:has(> span))
+{
+   color: #81868578;
+}
+.nav-categories ul li {
+   font-size: 1.4rem;
+   margin: 1rem 0;
+   
+}
+
+.nav-categories ul li:first-of-type:hover {
+   color: #eee0c8;
+   cursor: pointer;
+}
+
+
+.nav-categories ul li:first-of-type {
+   margin-left: 1rem;
+}
+
+
+
+/* container */
+.nav-container h2 
+{
+   margin-bottom: 2rem;
+   font-style: italic;
+   text-align: left;
+}
+
+
+.nav-container
+{
+   font-style: italic;
+}
+
+
+.nav-container h3
+{
+   background-color: black;
+   color: white;
+   margin: 0;
+   padding: 0.5rem 5rem 0.5rem 1rem;
+}
+
+/* card */
+
+.search-sort
+{
+   grid-column: 1/-1;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   column-gap: 10rem;
+   height: 20%;
+}
+
+.article
+{
+   width: 70%;
+   height: 100%;
+   animation: fadeIn 0.9s ease-in-out;
+}
+
+.categories-product-list
+{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: 2rem 1fr;
+   row-gap: 2rem;
+}
+
+.article.article-active {
+   opacity: 1;
+   transform: scale(1);
+ }
+
+
+ @keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: scale(0.8);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+
+.img:hover
+{
+   opacity: 0.3;
+}
+
+.article
+{
+   text-decoration: none;
+}
+.article img
+{
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+   
+}
+.product-info
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+.article p
+{
+   color: #aeb4b7;
+   font-style: italic;
+}
+.article h3
+{
+   margin: 0;
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight:500;
+   color: black;
+   padding-top: 1rem;
+   text-align: center;
+   font-style: italic;
+}
+
+.pagination
+{
+   width: 100%;
+   grid-area: 2/-2;
+   display: flex;
+   align-items: flex-end;
+   flex-direction: column;
+   color: #898b8a;
+}
+
+.item a
+{
+   background-color: black;
+   color: white;
+}

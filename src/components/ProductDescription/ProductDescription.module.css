@@ -1,0 +1,25 @@
+.btn
+{
+   border-radius: 0 !important;
+   font-style: italic;
+   padding: .5rem 1.5rem !important;
+}
+
+.h3
+{
+   font-style: italic;
+   font-size: 1.5rem;
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
+}
+
+.pre
+{
+   font-family: inherit;
+   color: #c1c2c5;
+   font-size: 1rem;
+   line-height: 1.3rem;  
+   white-space: pre-wrap;
+   word-wrap: break-word;
+
+}

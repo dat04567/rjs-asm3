@@ -1,0 +1,75 @@
+.orther-free-ship p
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-size: 1.3rem;
+   font-style: italic;
+  
+}
+.orther-free-ship p span
+{
+   color: #9ea8ad;
+}
+
+
+.orther-free-ship
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 10rem;
+   padding: 5rem 0;
+   width: 100%;
+   height: 100%;  
+   background-color: #f8f9fa;
+}
+
+.aside-shop
+{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.btn
+{
+   border: 1px solid black !important;
+   border-radius: 0  !important;
+   padding:1.5rem 2rem !important;
+}
+.contact
+{
+   display: flex;
+   justify-content: space-between;
+   padding: 5rem 0;
+   font-style: italic;
+   align-items: center;
+}
+.contact h2
+{
+   display: flex;
+   text-align: left;
+   flex-direction: column;
+   font-weight: 400;
+   font-size: 1.6rem;
+}
+.contact h2 span 
+{
+   font-size: 1rem;
+   color: #95a8ce;
+}
+.subscribe 
+{
+   display: flex;
+   align-items: center;
+}
+.subscribe input
+{
+   padding: 1.5rem 20rem 1.5rem 1rem;
+   border: 1px solid #ced4da;
+}
+.subscribe input:focus
+{
+   outline: none;
+}
